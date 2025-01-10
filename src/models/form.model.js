@@ -2,7 +2,7 @@ const { Schema, model } = require('mongoose');
 
 const formationSchema = new Schema({
     title: String,
-    description: String,
+    institution: String,
     startYear: Number,
     endYear: Number
 });
