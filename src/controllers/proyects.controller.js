@@ -1,9 +1,9 @@
-const Experience = require('../models/exp.model');
+const Proyects = require('../models/proyects.model');
 
 const getAll = async (req, res, next) => {
     try {
-        const exp = await Experience.find();
-        res.json(exp);
+        const proyects = await Proyects.find();
+        res.json(proyects);
     } catch (error) {
         next(error);
     }

@@ -1,4 +1,4 @@
-const Formation = require('../models/form.model')
+const Formation = require('../models/form.model');
 
 const getAll = async (req, res, next) => {
     try {

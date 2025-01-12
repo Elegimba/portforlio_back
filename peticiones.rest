@@ -4,3 +4,6 @@ GET {{host}}/api/form
 
 ###
 GET {{host}}/api/exp
+
+###
+GET {{host}}/api/proyects
