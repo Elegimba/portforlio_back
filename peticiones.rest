@@ -7,3 +7,14 @@ GET {{host}}/api/exp
 
 ###
 GET {{host}}/api/proyects
+
+
+###
+POST {{host}}/nodemailer/send-email
+Content-Type: application/json
+
+{
+    "nombre": "Yago",
+    "email": "yagogv@gmail.com",
+    "mensaje": "Este es un mensaje de prueba"
+}
