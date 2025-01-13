@@ -4,7 +4,7 @@ const proyectsSchema = new Schema ({
     title: String,
     description: String,
     image: String,
-    youtube: String,
+    link: String,
     github: {
         back: String,
         front: String
