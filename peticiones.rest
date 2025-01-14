@@ -10,7 +10,7 @@ GET {{host}}/api/proyects
 
 
 
-//no funciona
+//no funciona//////////////
 ###
 POST {{host}}/nodemailer/send-email
 Content-Type: application/json
@@ -20,4 +20,4 @@ Content-Type: application/json
     "email": "yagogv@gmail.com",
     "mensaje": "Este es un mensaje de prueba"
 }
-//no funciona
+//no funciona//////////////
