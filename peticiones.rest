@@ -15,6 +15,6 @@ Content-Type: application/json
 
 {
     "nombre": "Yago",
-    "email": "yagogv@gmail.com",
+    "email": "yagogv@hotmail.com",
     "mensaje": "Este es un mensaje de prueba"
 }

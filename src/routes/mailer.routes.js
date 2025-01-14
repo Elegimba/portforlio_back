@@ -26,6 +26,8 @@ router.post('/send-email', (req, res) => {
         if (error) {
             console.error('Error al enviar el correo:', error);
             res.status(500).send(`Error al enviar el correo: ${error.message}`);
+            console.log(process.env.MAIL_USER);
+            console.log(process.env.MAIL_PASS);
         } else {
             console.log('Correo enviado:', info.response);
             res.status(200).send('Correo enviado exitosamente');
