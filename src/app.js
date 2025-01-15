@@ -6,9 +6,12 @@ const app = express();
 app.use(express.json());
 app.use(cors());
 
+app.use (express.urlencoded({ extended: true }));
+
 // Route configuration
-// Ex.
-// app.use('/api', require('./routes/api'));
+
+app.use('/api', require('./routes/api.routes'));
+app.use('/nodemailer', require('./routes/mailer.routes'));
 
 // 404 handler
 app.use((req, res, next) => {

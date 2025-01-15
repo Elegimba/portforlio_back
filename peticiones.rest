@@ -1,0 +1,23 @@
+@host = http://localhost:3000
+
+GET {{host}}/api/form
+
+###
+GET {{host}}/api/exp
+
+###
+GET {{host}}/api/proyects
+
+
+
+//no funciona///////////////
+###
+POST {{host}}/nodemailer/send-email
+Content-Type: application/json
+
+{
+    "nombre": "Yago",
+    "email": "yagogv@gmail.com",
+    "mensaje": "Este es un mensaje de prueba"
+}
+//no funciona///////////////
